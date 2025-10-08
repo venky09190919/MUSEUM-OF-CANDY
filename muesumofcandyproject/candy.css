@@ -1,0 +1,84 @@
+body {
+    background-color: #f5d9d9;
+    font-family: "Nunito", sans-serif;
+}
+
+.Museum {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+#mainnavbar {
+    font-size: 1.5em;
+    color: solid #ea1c2c;
+}
+
+#mainnavbar .nav-link {
+    color: white;
+}
+
+#mainnavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#mainnavbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+
+#heading-group span {
+    color: red;
+}
+
+#heading-group h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scroll {
+    background: rgb(222, 192, 222);
+}
+
+@media(max-width: 1200px) {
+    #heading-group h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+
+.hello {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: -70px;
+    border-radius: 50%;
+}
+
+.book {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -70px;
+    color: #ea1c2c;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.pink-bg {
+    background-color: #f5d9d9;
+    padding: 40px;
+    border-radius: 10px;
+}
